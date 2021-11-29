@@ -1,0 +1,75 @@
+.background {
+  background-color: #acdf;
+  padding: 50px;
+  height: 500px;
+}
+
+.item_box {
+  max-width: 800px;
+  margin: auto;
+}
+
+.longest {
+  min-width: 220px;
+}
+
+.item_box h2 {
+  margin: 0;
+  margin-left: 8px;
+  margin-bottom: 15px;
+  color: darkslateblue;
+  font-weight: 540;
+}
+
+.table_div {
+  background-color: white;
+  border-collapse: collapse;
+  border-radius: 5px;
+  border-spacing: 1px;
+  text-align: left;
+  line-height: 1.5;
+  border-top: 1px solid #acdf;
+  margin: 20px 10px;
+  padding: 50px;
+}
+
+th,
+td {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-bottom: 1px solid #acdf;
+}
+
+th {
+  font-size: 12px;
+  color: #acdf;
+}
+
+.go_cart {
+  padding-left: 10px;
+  float: left;
+}
+
+.go_payment {
+  float: right;
+  padding: 20px;
+  margin-right: 10px;
+  background-color: midnightblue;
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+}
+
+p {
+  color: #acdf;
+}
+
+.order_right {
+  text-align: right;
+}
+
+.t_money {
+  color: midnightblue;
+}

@@ -1,0 +1,66 @@
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+.form-background {
+  background-color: gray;
+  padding: 50px;
+}
+
+.form-white {
+  background-color: white;
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-input {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+
+.w-50 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+form {
+  width: 100%;
+}
+
+.form-long {
+  height: 120px;
+}
+
+.yellow-button {
+  padding: 10px;
+  display: block;
+  float: right;
+  margin-left: auto;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: sandybrown;
+  font-weight: 700;
+  color: white;
+}
+
+#sub {
+  margin: 10px;
+  margin-top: 15px;
+}

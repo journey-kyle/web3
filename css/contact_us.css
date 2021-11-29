@@ -1,0 +1,62 @@
+body {
+  background: black;
+}
+.container {
+  text-align: center;
+  width: auto;
+  max-width: 500px;
+  display: block;
+  margin: auto;
+  background: white;
+}
+
+input {
+  width: 80%;
+  height: 40px;
+}
+
+.holder {
+  text-align: left;
+}
+
+.fn {
+  width: 222px;
+  float: left;
+  margin-right: 0px;
+}
+
+.ln {
+  width: 222px;
+  float: left;
+}
+
+.msg {
+  clear: both;
+  margin-top: 120px;
+}
+
+.ckb {
+  float: left;
+  width: 15px;
+}
+
+.subs {
+  float: left;
+  margin: 11px;
+}
+
+.sendbtn {
+  float: left;
+  margin-left: 200px;
+  border: 0px;
+  background: orange;
+  color: white;
+  padding: 10px;
+  font-weight: 700;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer {
+  margin-top: 15px;
+}
