@@ -54,6 +54,10 @@
   text-align: center;
 }
 
+.main-background a{
+  text-decoration: none;
+}
+
 .bbttnn{
   position: relative;
   margin-top: 30px;
@@ -63,7 +67,6 @@
   color: white;
   margin: auto;
   background: none;
-  text-decoration: none;
 }
 
 .bbttnn:hover{
@@ -104,4 +107,11 @@ input[type="email"] {
   font-size: 20px;
   border: 1px solid black;
   border-radius: 5px;
+}
+
+.basic i{
+  background-color: burlywood;
+  width: 100px;
+  height: 100px;
+  background-repeat: 50px;
 }
