@@ -1,0 +1,57 @@
+div,
+input,
+textarea {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: gray;
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+    height: 160px;
+}
+
+.basic{
+    text-align: center;
+    float: left;
+    width: 25%;
+}
+
+@media screen and (max-width:1200px){
+    .half_container{
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        clear: both;
+        margin-bottom: 20px;
+        max-width: 600px;
+    }
+    .basic{
+        text-align: center;
+        width: 50%;
+    }
+    .container{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .container{
+        clear: both;
+    }
+    .basic{
+        clear: both;
+        width: 100%;
+    }
+    .container{
+        height: 450px;
+    }
+}
