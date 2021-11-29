@@ -9,6 +9,32 @@
   background-attachment: fixed;
   position: relative;
   padding: 1px;
+  clear: both;
+}
+
+.btn{
+  margin-left: 20px;
+  float: left;
+  font-size: 25px;
+  font-weight: bold;
+  background:none;
+  border: 0;
+  margin: 10px;
+  padding: 10px;
+}
+
+.lft{
+  float: left;
+}
+
+.rgt{
+  float: right;
+}
+
+.lft:hover, .rgt:hover{
+  background-color: burlywood;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 .main-background h1 {
@@ -28,12 +54,23 @@
   text-align: center;
 }
 
-.buybtn {
+.bbttnn{
+  position: relative;
   margin-top: 30px;
   height: 50px;
   width: 150px;
-  font-size: 18px;
-  position: relative;
+  font-style: 18px;
+  color: white;
+  margin: auto;
+  background: none;
+  text-decoration: none;
+}
+
+.bbttnn:hover{
+  cursor: pointer;
+  text-decoration: none;
+  background-color: white;
+  color: black;
 }
 
 .coverdiv {
@@ -47,15 +84,8 @@
   top: -20px;
 }
 
-.buybtn a {
-  color: black;
-  text-decoration: none;
-  background: scroll;
-  z-index: 5;
-}
-
 html {
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 div {
