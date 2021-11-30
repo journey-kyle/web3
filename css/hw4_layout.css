@@ -28,6 +28,7 @@ body{
 .basic:hover{
     background-color: wheat;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .basic i{
